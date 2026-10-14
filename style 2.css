@@ -1,0 +1,111 @@
+body{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h1{
+    color: rgba(14, 14, 145, 0.737);
+    margin-top: 5px;
+}
+.header{
+    display: flex;
+    background-color: rgba(22, 163, 158, 0.801);
+}
+.btn{
+    margin-left: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+}
+.title{
+    margin-left: 10px;
+}
+.sectionhero{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bar{
+    width: 900px;
+    height: 45px;
+}
+.bar2{
+    width: 400px;
+    height: 45px;
+    margin-left: 120px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.boxs{
+    display: flex;
+    justify-content: center;
+    column-gap: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.box1{
+    background-color: rgb(122, 122, 255);
+    color: blue;
+    width: 130px;
+    text-align: center;
+    padding: 5px;
+}
+.box2{
+    background-color: rgb(195, 252, 195);
+    color: green;
+    width: 190px;
+    text-align: center;
+    padding: 5px;
+}
+.box3{
+    background-color: rgba(72, 51, 13, 0.678);
+    color: orange;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+}
+.center{
+    margin-bottom: 20px;
+}
+.content{
+    
+    width: 50%;
+    min-height: 60px;
+    padding: 10px;
+}
+
+/* ===== Added for the JavaScript ===== */
+.mission{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.mission span{
+    cursor: pointer;
+    flex: 1;
+}
+.delete-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.completed{
+    background-color: lightgreen;
+    color: green;
+}
+.completed span{
+    text-decoration: line-through;
+}
